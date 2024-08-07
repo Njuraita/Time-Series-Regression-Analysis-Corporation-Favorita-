@@ -102,6 +102,20 @@ Two datasets which are part of the train datasets can be found in the release of
 
 *For each the datasets we do data inspection using the .head(), .duplicated(), .describe(), .isnull(), .info(), .unique()*
 
+We will go ahead and do the following to better understand the data we are working with
+1. Perform EDA (Exploratory Data Analysis) and do some plotting where necessarry
+2. Then we will answer a few of the analytical Questions as listed above
+3. We wil also anaswer our hypothesis testing as listed above
+4. Do a decomposition
+5. Check for stationerity
+
+## **Data Preperation**
+
+
+
+
+
+
 
 
 
