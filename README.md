@@ -89,7 +89,24 @@ import requests
 import joblib
 
 ```
-Three of the the datasets 
+Three of the the train datasets ie ; table dbo.oil, dbo.holidays_events table and dbo.stores table, are in the MYSQL Database after connecting with .env credentials we will Querry them after using the below connection
+
+```dotnetcli
+# Connect to the database
+connection = pyodbc.connect(connection_string)
+
+```
+Two datasets which are part of the train datasets can be found in the release of this repository on GitHub ie; transaction.csv and train.csv and we'll read them directly using url and untrack the datasets in .gitignore
+
+**NB: This projects contains a large dataset and there will be need for use of Git for Large files to track the datasets as a plan B or plan A load directly from github using a url and untruck in .gitignore**
+
+*For each the datasets we do data inspection using the .head(), .duplicated(), .describe(), .isnull(), .info(), .unique()*
+
+
+
+
+
+ 
 
 
 
