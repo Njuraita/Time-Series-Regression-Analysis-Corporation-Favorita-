@@ -36,4 +36,61 @@ This project follows the CRISP-DM (Cross-Industry Standard Process for Data Mini
 
 ## **Data Understanding**
 
+What one will need as important packages for this project 
+
+```dotnetcli
+# Environment Setup
+import dotenv
+from dotenv import dotenv_values
+
+# Data Handling
+import pyodbc
+import pandas as pd
+import numpy as np
+
+# Visualization
+import matplotlib.pyplot as plt
+import seaborn as sns
+import plotly.express as px
+
+# Statistical Analysis
+import scipy
+import scipy.stats as stats
+from statsmodels.tsa.seasonal import seasonal_decompose
+from statsmodels.tsa.stattools import kpss
+from statsmodels.tsa.stattools import adfuller
+from sklearn.metrics import mean_squared_error, mean_squared_log_error, mean_absolute_error, r2_score
+from statsmodels.tsa.ar_model import AutoReg
+from statsmodels.tsa.arima.model import ARIMA
+from statsmodels.tsa.statespace.sarimax import SARIMAX
+from statsmodels.graphics.tsaplots import plot_acf, plot_pacf
+
+# Machine Learning
+from pmdarima import auto_arima
+from sklearn.preprocessing import OneHotEncoder, MinMaxScaler
+from sklearn.pipeline import Pipeline
+from sklearn.compose import ColumnTransformer
+from sklearn.linear_model import LinearRegression
+from xgboost import XGBRegressor
+from sklearn.ensemble import RandomForestRegressor
+from sklearn.preprocessing import FunctionTransformer
+from sklearn.model_selection import RandomizedSearchCV
+from sklearn.pipeline import make_pipeline
+from sklearn.impute import SimpleImputer
+from scipy.stats import uniform, randint
+from sklearn.metrics import make_scorer
+
+# Utility and Miscellaneous
+import warnings
+warnings.filterwarnings("ignore")
+import zipfile
+import os
+import requests 
+import joblib
+
+```
+Three of the the datasets 
+
+
+
 
