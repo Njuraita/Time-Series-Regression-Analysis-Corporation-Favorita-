@@ -109,7 +109,37 @@ We will go ahead and do the following to better understand the data we are worki
 4. Do a decomposition
 5. Check for stationerity
 
-## **Data Preperation**
+## **Data Preparation**
+
+
+
+
+## **Modeling and Evaluation**
+*Models in this project*
+- SARIMA
+- ARIMA
+- Linear Regression
+- XGB Regressor
+
+
+*For the best model we will perform hyperparameter tuning using the Randomized Grid Search*
+
+The outcome will determine which model will be used for the test dataset
+
+#### How to Contribute: 
+ Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change
+
+#### **For More info:**
+
+*An article on this same project can be viewed here* <https://medium.com/@njerisharon06/time-series-regression-8a35fed56b10>
+
+*To reach me*
+Email njerisharon06@gmail.com
+
+
+
+
+
 
 
 
